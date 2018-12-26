@@ -1,3 +1,14 @@
+---
+layout:     post   				    # 使用的布局（不需要改）
+title:      Final Project 制作过程				# 标题 
+subtitle:   I-ACG #副标题
+date:       2018-12-27 				# 时间
+author:     FY_Zhang 						# 作者
+header-img: img/Girl-Night.JPG 	#这篇文章标题背景图片
+catalog: true 						# 是否归档
+tags:								#标签
+    - 编程
+---
 # Final Project
 
 这是我编写的第一个大型程序，集中敲了三天半代码，后来又断断续续增加了一些页面。
