@@ -12,7 +12,11 @@ github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "That man is the richest whose pleasure are the cheapest."
+<<<<<<< HEAD
 sidebar-avatar: /img/Accelerator.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+=======
+sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+>>>>>>> 8ff399e7298ea251dffc4c5c1968aeb090525953
 
 
 
