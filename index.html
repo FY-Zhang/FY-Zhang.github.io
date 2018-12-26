@@ -1,54 +1,68 @@
 ---
+title: Alpha2
 layout: default
-title: 林德熙
 ---
-<div class="well">
-    <div class="list-group">
-      {% for post in paginator.posts %}
-      <div class="list-group-item">
-        <div class="row-content">
-          <h4 class="list-group-item-heading"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
-          <!-- <p style="font-size: 0.8em">{{ post.date | date: "%Y-%m-%d %H:%M" }}</p> -->
-          <p class="list-group-item-text">{{ post.excerpt }}</p>
-        </div>
-      </div>
-      <div class="list-group-separator"></div>
-      {% endfor %}
-    </div>
-   
+<section class="box special">
+	<header class="major">
+		<h2>Introducing the ultimate mobile app10
+		<br />
+		for doing stuff with your phone</h2>
+		<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare<br />
+		adipiscing nunc adipiscing. Condimentum turpis massa.</p>
+	</header>
+	<span class="image featured"><img src="{{ site.baseurl }}/assets/images/pic01.jpg" alt="" /></span>
+</section>
 
-    <!-- Pagination links -->
-    {% if paginator.total_pages > 1 %}
-    <ul class="pager">
-      {% if paginator.previous_page %}
-        <li class="previous">
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">←</a>
-        </li>
-      {% else %}
-        <li class="previous disabled"><span aria-hidden="true">←</span></li>
-      {% endif %}
+<section class="box special features">
+	<div class="features-row">
+		<section>
+			<span class="icon major fa-bolt accent2"></span>
+			<h3>Magna etiam</h3>
+			<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+		</section>
+		<section>
+			<span class="icon major fa-area-chart accent3"></span>
+			<h3>Ipsum dolor</h3>
+			<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+		</section>
+	</div>
+	<div class="features-row">
+		<section>
+			<span class="icon major fa-cloud accent4"></span>
+			<h3>Sed feugiat</h3>
+			<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+		</section>
+		<section>
+			<span class="icon major fa-lock accent5"></span>
+			<h3>Enim phasellus</h3>
+			<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+		</section>
+	</div>
+</section>
 
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <li class="active">
-             <a>{{ page }}<span class="sr-only">(current)</span></a>
-          </li>
-        {% elsif page == 1 %}
-          <li><a href="/">{{ page }}</a></li>
-        {% else %}
-          <li>
-            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-          </li>
-        {% endif %}
-      {% endfor %}
+<div class="row">
+	<div class="6u">
 
-      {% if paginator.next_page %}
-        <li class="next">
-          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">→</a>
-        </li>
-      {% else %}
-        <li class="next disabled"><span>→</span></li>
-      {% endif %}
-    </ul>
-    {% endif %}
-</div><!-- end #home -->
+		<section class="box special">
+			<span class="image featured"><img src="{{ site.baseurl }}/assets/images/pic02.jpg" alt="" /></span>
+			<h3>Sed lorem adipiscing</h3>
+			<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+			<ul class="actions">
+				<li><a href="#" class="button alt">Learn More</a></li>
+			</ul>
+		</section>
+
+	</div>
+	<div class="6u">
+
+		<section class="box special">
+			<span class="image featured"><img src="{{ site.baseurl }}/assets/images/pic03.jpg" alt="" /></span>
+			<h3>Accumsan integer</h3>
+			<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+			<ul class="actions">
+				<li><a href="#" class="button alt">Learn More</a></li>
+			</ul>
+		</section>
+
+	</div>
+</div>
