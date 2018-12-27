@@ -42,4 +42,4 @@ tags:								#标签
 
 做完基础页面，我开始做每个动画的详细信息页面，以 "Cover" 作连接，用 PHP 实现了精准跳转(～￣▽￣)～
 
-!["Information" - 《中二病也要谈恋爱》](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/Information-zebyytla.GIF '"Information" - 《中二病也要谈恋爱》')
+!["Information" - 《中二病也要谈恋爱》](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/Information-zebyytla.JPG '"Information" - 《中二病也要谈恋爱》')
