@@ -20,7 +20,7 @@ tags:								#标签
 
 ![好看就行了，管它像不像呢 (￣▽￣)"](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/HomePage-Contrast.JPG "好看就行了，管它像不像呢 (￣▽￣)")
 
-在 "Contact" 页面中，外教让我们附上地图，这个地图肯定不是普通的截图，所以我就去网上搜了一下如何插入地图，这里参考了<a href = "https://blog.csdn.net/wyl1401672169/article/details/79021112" target = "_blank">js调用百度地图接口实现定位功能</a>，用到了<a href = "http://lbsyun.baidu.com/index.php?title=jspopular">百度地图JS API</a>。代码复制上去之后改改就可以用了，所以我也没有去深究它的含义23333。
+在 "Contact" 页面中，老师让我们附上地图，这个地图肯定不是普通的截图，所以我就去网上搜了一下如何插入地图，这里参考了<a href = "https://blog.csdn.net/wyl1401672169/article/details/79021112" target = "_blank">js调用百度地图接口实现定位功能</a>，用到了<a href = "http://lbsyun.baidu.com/index.php?title=jspopular">百度地图JS API</a>。代码复制上去之后改改就可以用了，所以我也没有去深究它的含义23333。
 
 ![百度地图JS API](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/JsAPI.GIF "百度地图JS API")
 
