@@ -32,7 +32,7 @@ tags:								#标签
 
 建立完数据库后，我利用 PHP 连接数据库，然后读取里面的动漫名(Name)和图片地址(Cover)，然后将它们平铺在网页上。有两季及以上的动画自动在名字后面加上第几季，只有一季的只显示动画名，这里我用非常简单粗暴的 for 循环判断是否只有一季，肯定有更好的办法，但我暂时还想不到。于是，"Animation" 页面就做成了这个样子：
 
-!["Animation" 页面](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/Animation.jpg "自我感觉还行的 "Animation" 页面")
+!["Animation" 页面](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/Animation.jpg '自我感觉还行的 "Animation" 页面')
 
 接下来是登录、注册和登出，我参考了<a href = "https://www.cnblogs.com/leinov/p/3745401.html" target = "_blank">php注册登录系统</a>和<a href = "https://zhidao.baidu.com/question/1882548854151467788.html" target = "_blank">php判断用户是否登录</a>，稍微改了改里面的代码，然后作为自己的，很轻松就弄出来了。登出的话我将它设定为点击名字后跳转到一个页面，然后那里有清除 SESSION 的代码。登录时的条款条件和隐私政策我照搬了<a href = "https://www.pythonanywhere.com/" target = "_blank">Python Anywhere</a>的条款(￣ε(#￣)☆╰╮o(￣皿￣///)
 
@@ -42,4 +42,4 @@ tags:								#标签
 
 做完基础页面，我开始做每个动画的详细信息页面，以 "Cover" 作连接，用 PHP 实现了精准跳转(～￣▽￣)～
 
-!["Information" - 《中二病也要谈恋爱》](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/Information-zebyytla.GIF ""Information" - 《中二病也要谈恋爱》")
+!["Information" - 《中二病也要谈恋爱》](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/Information-zebyytla.GIF '"Information" - 《中二病也要谈恋爱》')
