@@ -38,7 +38,7 @@ tags:								#标签
 
 ![注册和登录](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/Login-Signup.jpg "Log in 和 Sign up")
 
-最后是 "My Favorite"，这个页面的作用是储存用于喜欢的动画，本来想的是将 "User" 和 "Information" 这两个数据库连接一下，结果（因技术不够出现的结果又出现了！）连接不成功，只能将喜欢的动画信息再在 "User" 里存一遍了。问题很多，但好歹是实现了~
+最后是 "My Favorite"，这个页面的作用是储存用户喜欢的动画，本来想的是将 "User" 和 "Information" 这两个数据库连接一下，结果（因技术不够出现的结果又出现了！）连接不成功，只能将喜欢的动画信息再在 "User" 里存一遍了。问题很多，但好歹是实现了~
 
 做完基础页面，我开始做每个动画的详细信息页面，以 "Cover" 作连接，用 PHP 实现了精准跳转(～￣▽￣)～
 
