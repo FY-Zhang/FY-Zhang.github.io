@@ -18,7 +18,7 @@ tags:								#标签
 
 美术不好的我制作网页最头疼的地方就是 CSS，由于是期末作业，所以模板什么的不能找，那就借鉴一下别人的吧！于是找到了神代绮凛的 Blog，照着它的样式、颜色做了一个网页出来。虽然由于技术原因，未能将他的 Blog 完美重现，但依然解决了我最为头疼的问题。
 
-![好看就行了，管它像不像呢 (￣▽￣)"](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/HomePage-Contrast.JPG)
+![好看就行了，管它像不像呢 (￣▽￣)"](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/HomePage-Contrast.JPG "好看就行了，管它像不像呢 (￣▽￣)")
 
 做完这些基础的 HTML 页面后，我开始制作真正需要 PHP 的页面，就是上方那一条的右边四个按钮。
 
