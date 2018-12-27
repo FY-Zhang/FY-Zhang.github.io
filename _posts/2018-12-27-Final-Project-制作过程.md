@@ -20,6 +20,10 @@ tags:								#标签
 
 ![好看就行了，管它像不像呢 (￣▽￣)"](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/HomePage-Contrast.JPG "好看就行了，管它像不像呢 (￣▽￣)")
 
+在 "Contact" 页面中，外教让我们附上地图，这个地图肯定不是普通的截图，所以我就去网上搜了一下如何插入地图，这里参考了<a href = "https://blog.csdn.net/wyl1401672169/article/details/79021112" target = "_blank">js调用百度地图接口实现定位功能</a>，用到了<a href = "http://lbsyun.baidu.com/index.php?title=jspopular">百度地图JS API</a>。代码复制上去之后改改就可以用了，所以我也没有去深究它的含义23333。
+
+![百度地图JS API](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/JsAPI.JPG "百度地图JS API")
+
 做完这些基础的 HTML 页面后，我开始制作真正需要 PHP 的页面，就是上方那一条的右边四个按钮。
 
 我首先做的是 "Animation" 页面，因为我要在这个页面中显示出动漫的详细信息，所以需要用到数据库。这里我为了在表中存入中文，参考了<a href = "https://www.jb51.net/article/147131.htm" target = "_blank">mysql中插入表数据中文乱码问题的解决方法</a>，为了更方便地往数据库中存入数据，参考了<a href = "https://blog.csdn.net/qq_36832411/article/details/76619663" target = "_blank">如何使用mysql导入txt数据</a>。
