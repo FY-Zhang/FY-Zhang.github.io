@@ -30,7 +30,7 @@ tags:								#标签
 
 ![动画信息数据库](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/Database-txt.GIF "动画信息数据库")
 
-建立完数据库后，我利用 PHP 连接数据库，然后读取里面的动漫名(Name)和图片地址(Cover)，然后将它们平铺在网页上。有两季及以上的动画自动在名字后面加上第几季，只有一季的只显示动画名，这里我用非常简单粗暴的 for 循环判断是否只有一季，肯定有更好的办法，但我暂时还想不到。于是，"Animation" 页面就做成了这个样子：
+建立完数据库后，我利用 PHP 连接数据库，读取里面的动漫名(Name)和图片地址(Cover)，然后将它们平铺在网页上。有两季及以上的动画自动在名字后面加上第几季，只有一季的只显示动画名，这里我用非常简单粗暴的 for 循环判断是否只有一季，肯定有更好的办法，但我暂时还想不到。于是，"Animation" 页面就做成了这个样子：
 
 !["Animation" 页面](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/Animation.jpg '自我感觉还行的 "Animation" 页面')
 
