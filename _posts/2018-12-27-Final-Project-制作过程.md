@@ -34,7 +34,8 @@ tags:								#标签
 
 !["Animation" 页面](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/Animation.jpg "自我感觉还行的 Animation 页面")
 
-接下来是登录、注册和登出，我参考了<a href = "https://www.cnblogs.com/leinov/p/3745401.html" target = "_blank">php注册登录系统</a>和<a href = "https://zhidao.baidu.com/question/1882548854151467788.html" target = "_blank">php判断用户是否登录</a>，稍微改了改里面的代码，然后作为自己的，很轻松就弄出来了。登出的话我将它设定为点击名字后跳转到一个页面，然后那里有清除 SESSION 的代码。
+接下来是登录、注册和登出，我参考了<a href = "https://www.cnblogs.com/leinov/p/3745401.html" target = "_blank">php注册登录系统</a>和<a href = "https://zhidao.baidu.com/question/1882548854151467788.html" target = "_blank">php判断用户是否登录</a>，稍微改了改里面的代码，然后作为自己的，很轻松就弄出来了。登出的话我将它设定为点击名字后跳转到一个页面，然后那里有清除 SESSION 的代码。登录时的条款条件和隐私政策我照搬了<a href = "https://www.pythonanywhere.com/" target = "_blank">Python Anywhere</a>的条款(￣ε(#￣)☆╰╮o(￣皿￣///)
 
 ![注册和登录](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/Login-Signup.jpg "Log in 和 Sign up")
 
+最后是
