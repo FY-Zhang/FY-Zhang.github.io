@@ -20,7 +20,7 @@ tags:								#标签
 
 ![好看就行了，管它像不像呢 (￣▽￣)"](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/HomePage-Contrast.JPG "好看就行了，管它像不像呢 (￣▽￣)")
 
-在 "Contact" 页面中，外教让我们附上地图，这个地图肯定不是普通的截图，所以我就去网上搜了一下如何插入地图，这里参考了<a href = "https://blog.csdn.net/wyl1401672169/article/details/79021112" target = "_blank">js调用百度地图接口实现定位功能</a>，用到了<a href = "http://lbsyun.baidu.com/index.php?title=jspopular">百度地图JS API</a>。代码复制上去之后改改就可以用了，所以我也没有去深究它的含义23333。
+在 "Contact" 页面中，老师让我们附上地图，这个地图肯定不是普通的截图，所以我就去网上搜了一下如何插入地图，这里参考了<a href = "https://blog.csdn.net/wyl1401672169/article/details/79021112" target = "_blank">js调用百度地图接口实现定位功能</a>，用到了<a href = "http://lbsyun.baidu.com/index.php?title=jspopular">百度地图JS API</a>。代码复制上去之后改改就可以用了，所以我也没有去深究它的含义23333。
 
 ![百度地图JS API](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/JsAPI.GIF "百度地图JS API")
 
@@ -30,7 +30,7 @@ tags:								#标签
 
 ![动画信息数据库](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/Database-txt.GIF "动画信息数据库")
 
-建立完数据库后，我利用 PHP 连接数据库，然后读取里面的动漫名(Name)和图片地址(Cover)，然后将它们平铺在网页上。有两季及以上的动画自动在名字后面加上第几季，只有一季的只显示动画名，这里我用非常简单粗暴的 for 循环判断是否只有一季，肯定有更好的办法，但我暂时还想不到。于是，"Animation" 页面就做成了这个样子：
+建立完数据库后，我利用 PHP 连接数据库，读取里面的动漫名(Name)和图片地址(Cover)，然后将它们平铺在网页上。有两季及以上的动画自动在名字后面加上第几季，只有一季的只显示动画名，这里我用非常简单粗暴的 for 循环判断是否只有一季，肯定有更好的办法，但我暂时还想不到。于是，"Animation" 页面就做成了这个样子：
 
 !["Animation" 页面](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/Animation.jpg '自我感觉还行的 "Animation" 页面')
 
@@ -38,7 +38,7 @@ tags:								#标签
 
 ![注册和登录](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/Login-Signup.jpg "Log in 和 Sign up")
 
-最后是 "My Favorite"，这个页面的作用是储存用于喜欢的动画，本来想的是将 "User" 和 "Information" 这两个数据库连接一下，结果（因技术不够出现的结果又出现了！）连接不成功，只能将喜欢的动画信息再在 "User" 里存一遍了。问题很多，但好歹是实现了~
+最后是 "My Favorite"，这个页面的作用是显示用户喜欢的动画，本来想的是将 "User" 和 "Information" 这两个数据库连接一下，结果（因技术不够出现的结果又出现了！）连接不成功，只能将喜欢的动画信息再在 "User" 里存一遍了。问题很多，但好歹是实现了~
 
 做完基础页面，我开始做每个动画的详细信息页面，以 "Cover" 作连接，用 PHP 实现了精准跳转(～￣▽￣)～
 
