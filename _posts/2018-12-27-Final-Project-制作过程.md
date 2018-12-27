@@ -11,7 +11,7 @@ tags:								#标签
 ---
 # Final Project
 
-这是我编写的第一个大型程序，集中敲了三天半代码，后来又断断续续增加了一些页面。
+这是我编写的第一个“大型程序”，集中敲了三天半代码，后来又断断续续增加了一些页面。
 
 
 本次制作主要参考了<a href = "https://lolico.moe/" target = "_blank">神代綺凜の萌化小基地</a>、<a href = "http://www.runoob.com/" target = "_blank">菜鸟教程</a>、<a href = "http://www.w3school.com.cn/index.html" target = "_blank">W3school</a>，以及其他的一些博客。
@@ -43,3 +43,9 @@ tags:								#标签
 做完基础页面，我开始做每个动画的详细信息页面，以 "Cover" 作连接，用 PHP 实现了精准跳转(～￣▽￣)～
 
 !["Information" - 《中二病也要谈恋爱》](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/Information-zebyytla.JPG '"Information" - 《中二病也要谈恋爱》')
+
+最后来张代码合影👇
+
+![Code](https://raw.githubusercontent.com/FY-Zhang/FY-Zhang.github.io/master/img/FinalProject/Website-File.GIF)
+
+点击这里查看代码👉 <a href = "https://github.com/FY-Zhang/2018-12-Final-Project" target = "_blank">2018-12-Final-Project</a>
