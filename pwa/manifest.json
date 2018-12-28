@@ -3,13 +3,13 @@
   "short_name": "ZFY Blog",
   "description": "A personal blog by a student",
   "icons": [{
-    "src": "icons/favicon.ico",
+    "src": "icons/Accelerator.jpg",
     "sizes": "128x128",
-    "type": "image/ico"
+    "type": "image/jpg"
   }, {
-    "src": "icons/favicon.ico",
+    "src": "icons/Accelerator.jpg",
     "sizes": "512x512",
-    "type": "image/ico"
+    "type": "image/jpg"
   }],
   "background_color": "#fff",
   "theme_color": "#000",
